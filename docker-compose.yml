@@ -3,7 +3,7 @@ version: '3.7'
 services:
 
   mongo:
-    image: mongo:latest
+    image: mongo:3.6
     hostname: mongo
     command: mongod # just block access with firewall until i know what i'm doing here...
     volumes:
